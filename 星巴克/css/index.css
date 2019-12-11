@@ -1,0 +1,662 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+a{
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+}
+/* 左边 1*/
+#leftBoard{
+    width: 30%;
+    height: 160%;
+    bottom: 10%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    left: 0;
+    position: fixed;
+    top: 0;
+    list-style: none;
+    overflow-y: scroll;
+    visibility: hidden;
+}
+
+.icon{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.icon>a{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -0.3%;
+}
+
+.icon>a>img{
+    float: left;
+    width: 80%;
+    position: relative;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.icon>li>a>img{
+    position: absolute;
+    left: 82%;
+    top: 5%;
+}
+.nav_ico>a>img{
+    height: 2%;
+}
+.nav_center{
+    position: absolute;
+    top: 60%;   
+    left: 60%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    width:59%;
+    vertical-align: middle;
+}
+.nav_center>ul>li>a{
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav_center>ul>li{
+    padding: 8px 0;
+}
+.nav_center>ul{
+    list-style: none;
+}
+.nav_center>ul>li>a>hr{
+    background-color:  rgba(0, 0, 0, 0.12); 
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+.left_bottom{
+    height: 60%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.left_bottom>.registe{
+    height: 8%;
+    position: relative;
+    top: 1%;
+    color: #00A862;
+}
+.left_bottom>.registe img{
+    vertical-align: middle;
+}
+.registe>button>a{
+    color: #00A862;
+}
+.registe>button{
+    height: 75%;
+    width: 30%;
+    position: absolute;
+    left: 16%;
+    background: none;
+    border: 1px solid #00A862;
+    border-radius: 48px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: 500;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    transition-duration: 0.1s;
+}
+.legal_icon{
+    height: 5%;
+    width:92%;
+    word-break: break-all;
+    position: absolute;
+    top: 61%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+}
+.legal_icon>ul>li{
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    line-height: 160%;
+    margin:3% 1%;
+    margin-top: -1%;
+}
+.legal_icon>ul>li>a{
+    width:100%;
+    color: rgba(0, 0, 0, 0.38);
+    line-height: 100%;  
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+.text-little img{
+        width: 10px;
+        height: 10px;
+}
+.text-little>a{
+    line-height: 90%;
+    font-size: 9px;
+    word-wrap:normal;
+}
+/* 左边 1*/
+.leftBorad{
+    bottom: 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 30%;
+    height: 100%;
+}
+.nav_out{
+    position: relative;
+    height: 16%;
+    box-sizing: content-box;
+}
+.nav_in{
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: -11%;
+    margin: auto;
+}
+.nav_title>a>img{
+    float: left;
+    width: 80%;
+    position: relative;
+    margin-top: -15%;
+}
+.nav_title{
+    float: left;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 5% 3% 0;
+}
+.nav_out>a>img{
+    position: relative;
+    left:85%; 
+    top: 40%; 
+    transition-duration: 0.1s;
+}
+.cointainer{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 31%;
+    height: 47%;
+    width: 45%;
+}
+.cointainer>span{
+    letter-spacing: 0.4px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.cointainer>ul{
+    position: absolute;
+    margin: 10% 0%;
+}
+.acholUl{
+    position: absolute;
+    bottom: -2%;
+}
+.acholUl>li{
+    margin: 16% 0;
+    list-style: none;
+}
+.acholList>a{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.56);
+    padding: 3% 0;
+}
+.list_weight>a{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 900;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #00A862;
+    width: 70%;
+
+}
+.acholList>a:hover{
+    color: rgba(0, 0, 0, 0.87);
+}
+.list_weight>a:hover{
+    color: rgba(0, 0, 0, 0.56);
+}
+/* 右边 */
+.rightBorad{
+    background-color: rgba(0, 0, 0, 0.87);
+    height: 130%;
+    width: 70%;
+    margin-left: 30%;
+    background-image: url(../img/careers-bg-line.svg);
+    background-position: 55% 87%;
+    background-size: cover;
+    position: relative;
+}
+.section{
+    height: 82%;
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    right: 10%;
+    bottom: 0;
+    margin: auto;
+}
+.section_title{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.title_white{
+    justify-content: flex-start;
+    font-weight: 700;
+    color: #fff;
+}
+.title_green{
+    justify-content: flex-end;
+    color: #00A862;
+    font-weight: 400;
+    margin: 4% 0 5%;
+}
+.introduct_detail{
+    height: 20%;
+    color: white;
+    line-height: 160%;
+}
+.pic_top{
+    height: 50%;
+    width:80%;
+    position: relative;
+    top: 37%;
+    left: 10%;
+}
+.pic_top_ul{
+    position: absolute;
+    height: 67%;
+    top: -20%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.pic_top_ul>li{
+    list-style: none;
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 30%;
+    margin: 0 1.6%;
+    background: #FFF;
+}
+.pic_top_ul>li:hover{
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+    margin-top: -3px;
+    transition: all 0.3s ease;
+}
+.pic_top_ul>li>img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.pic_top_li_div{
+    height: 30%;
+    width: 58%;
+    position: absolute;
+    top: 58%;
+    right: 0;
+    left: 0;
+    bottom: 15%;
+    margin: auto;
+}
+.pic_top_li_div>.menu{
+    width: 100%;
+    height: 50%;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+.pic_top_li_div>.acquire{
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.pic_top_li_div>.acquire>a{
+    border: 1px solid #00A862;
+    background: #00A862;
+    border-radius: 48px;
+    box-sizing: content-box;
+    font-weight: 500;
+    color: #fff;
+    outline: none;
+    padding: 6px 13px;
+}
+.background{
+    background-size: cover;
+    height: 15%;
+    width: 50%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    background-image: url(../img/careers-cup.png);
+}
+.introduct_detail>p{
+    text-align: left;
+}
+.right_middle{
+    height: 90%;
+    width: 70%;
+    position: absolute;
+    right: 0; 
+    background-color: #f7f7f7;
+}
+.right_middle>h2{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 6%;
+}
+.right_middle_text{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    display: grid;  
+    grid-template-rows: 1fr;
+    grid-template-columns: 50% auto;
+    grid-column-gap: 1px; 
+}
+.right_middle>.divide{
+    height: 71%;
+    width: 1px;
+    border: none;
+    position: relative;
+    left: 49%;
+    top: 15%;
+    border-right: 1px solid #EDEBE9;
+}
+.gold{
+    color: #C2A661;
+    line-height: 140%;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.middle_text_left h3,p{
+    text-align: center;
+    margin:5% 0;
+    line-height: 140%;
+}
+.right_middle_text ul{
+    list-style-type: circle;
+}
+.mid_text>.textLeft{
+    line-height: 160%;
+    margin: 2% 0;
+}
+.middle_text_left{
+    width: 80%;
+    margin:0 auto;
+
+}
+.middle_text_right{
+    position: relative;
+    width: 81%;
+    margin:0  auto;
+    top: 2%;
+}
+.middle_text_right>.gold{
+    margin: 0 0 4% ;
+}
+.mid_imgList{
+    height: 40%;
+    width: 70%;
+    position: relative;
+    margin-left: 30%;
+    top: 90%;
+    background-image: url(../img/careers-bg-line-2.svg);
+    background-repeat: no-repeat;
+}
+.mid_img{
+    position: relative;
+    height: 70%;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+}
+.mid_img>ul{
+    height: 100%;
+    width: 100%;
+}
+.mid_img>ul>li>img{
+    width: 99%;
+    height: 95%;
+}
+.mid_img>ul>.mid_img_li{
+    width: 31.3%;
+    height: 90%;
+    margin: 0 1%;
+    float: left;
+    list-style:none;
+}
+.choose_starbucks{
+    height: 80%;
+    width: 70%;
+    position: relative;
+    margin-left: 30%;
+    top: 86%;
+}
+.choose_starbucks>h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 140%;
+    font-weight:400;
+}
+.choose_starbucks>h3{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.choose_message{
+    height:65%;
+    width: 73%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-top: 2%;
+    display: grid;
+    grid-column-gap: 0  px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr;
+}
+.choose_left>ul{
+    height:100%;
+    width: 100%;
+}
+.choose_left>ul>li{
+    padding:1% 0 0 2%;
+    line-height: 160%;
+    font-weight: 400;
+}
+.choose_right>img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.wages_starbucks{
+    height: 50%;
+    width: 70%;
+    position: relative;
+    margin-left: 30%;
+    margin-top: -1%;
+    background-color: #f7f7f7;
+}
+.grey_img{
+    max-width: 100%;
+    height: 15%;
+    width: 70%;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 38%;
+}
+.grey_img>img{
+    max-width: 100%;
+}
+.wages_message{
+    height: 60%;
+    width: 80%;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2.3fr;
+}
+.wages_left>img{
+    position: absolute;
+    bottom: -56%;
+    margin-left: 6%;
+}
+.wages_right>h3{
+    text-align: left;
+    padding:2%;
+    padding-bottom: 0;
+}
+.wages_right>p{
+    text-align: left;
+    padding: 0 2%;
+}
+.wages_text{
+    height: 60%;
+    width: 68%;
+    margin-left: 10%;
+    margin-top: -4%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 50% 50%;
+}
+.wages_text ul{
+    list-style-type: circle;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.wages_text li{
+    margin: 3% 0 0;
+    line-height: 160%;
+    font-weight: 400;
+}
+.gray_img{
+    max-width: 100%;
+    height: 15%;
+    width: 70%;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 0;
+}
+.gray_img>img{
+    max-width: 100%;
+}
+.school_starbucks{
+    height: 65%;
+    width: 70%;
+    background-color: #F3F1E7;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 0.4%;
+}
+.school_starbucks h3{
+    text-align: left;
+}
+.school_message{
+    height: 70%;
+    width: 78%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.school_left>ul>li{
+    margin: 1% 0 0;
+    line-height: 160%;
+}
+.ul_li{
+    position: relative;
+    left: 20%;
+}
+.ul_li>li{
+    margin: 1% 0 0;
+    line-height: 160%;
+}
+.school_right>img{
+    position: relative;
+    top: 56%;
+}
+.tail_starsbucks{
+    height: 50%;
+    width: 70%;
+    position: relative;
+    margin-left: 30%;
+    background-image: url(../img/bck.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 2fr 1fr;
+}
+.tail_right{
+    height: 85%;
+}
+.tail_right>img{
+    border: 12px solid #000;
+    background-size: cover;
+    height: 132px;
+    width: 132px; 
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.tail_right>h3{
+    font-weight: 700;
+    color: white;
+    line-height: 160%;
+    position: relative;
+    margin-top: 80%;
+    margin-left: 10%;
+}
+
+

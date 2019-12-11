@@ -1,0 +1,65 @@
+{
+  "id": "1531681",
+  "name": "text",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1049698",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "1261596",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "1261892",
+      "name": "linkedin",
+      "font_class": "linkedin",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "1898839",
+      "name": "instagram",
+      "font_class": "instagram",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "4598257",
+      "name": "大于号",
+      "font_class": "dayuhao",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "6742309",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "7239588",
+      "name": "youtube",
+      "font_class": "youtube",
+      "unicode": "e711",
+      "unicode_decimal": 59153
+    },
+    {
+      "icon_id": "7239928",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    }
+  ]
+}

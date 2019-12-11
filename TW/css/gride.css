@@ -1,0 +1,18 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.cointainer{
+    display: grid;
+    display: grid;
+    background-color: white;
+    grid-template-areas: 'a . c'
+    'd . f'
+    'g . i';
+    grid-auto-flow: row dense;
+    justify-content: center;
+
+}
+.cointainer>div{
+    border: 1px solid black;
+}
